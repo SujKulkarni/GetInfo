@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>Infoicon.png</file>
+        <file>processor_icon.jpg</file>
+        <file>SpeedIcon.jpg</file>
+        <file>okicon.svg</file>
+    </qresource>
+</RCC>
