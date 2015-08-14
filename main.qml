@@ -58,7 +58,7 @@ ApplicationWindow {
             width: 500
             height: 351
             text: "Could not get System information"
-            font.pointSize: 15
+            font.pointSize: 14
             echoMode: TextInput.NoEcho
             anchors.right: parent.right
             anchors.rightMargin: 41

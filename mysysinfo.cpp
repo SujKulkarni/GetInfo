@@ -9,12 +9,30 @@ mySysInfo::mySysInfo()
 
 void mySysInfo::setData( QByteArray arrData )
 {
+   try{
          arrSysData = arrData;
+
+
+    }
+    catch(...){
+
+
+    }
+
 }
+
+
 
 QByteArray mySysInfo::getData( void )
 {
+    try {
         return arrSysData;
+
+    } catch (...) {
+        return arrSysData;
+
+    }
+
 }
 
 
